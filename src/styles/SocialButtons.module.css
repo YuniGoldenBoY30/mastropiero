@@ -1,0 +1,26 @@
+.socialButtons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialButtons a {
+    margin-bottom: 10px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.socialButtons a:hover {
+    transform: scale(1.2);
+}
+
+/* Ajusta según sea necesario */
+.socialButtons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
